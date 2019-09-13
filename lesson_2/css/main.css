@@ -1,0 +1,54 @@
+body{
+    background-color: #abcdef;
+}
+div{
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline coral;
+}
+.block {
+/* border-color: green;
+border-left-width: 10px;
+border-style: solid;
+border-width: 3px; */
+border: 3px solid blue;
+height: 100px;
+width: 100px;
+text-align: justify;
+padding: 20px 25px;
+margin: 10px;
+float: left;
+}
+.wrapper{
+    display: flex;
+}
+.block1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.block4 .block5 .block6 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+.block4{
+    background-color: red;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+.block5{
+    background-color: pink;
+    top: 125px;
+    left: 125px;
+}
+.block6{
+    background-color: green;
+    top: 75px;
+    left: 100px;
+}
